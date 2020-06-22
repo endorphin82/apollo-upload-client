@@ -5,9 +5,7 @@ import Dropzone from 'react-dropzone';
 
 const uploadFileMutation = gql`
     mutation($file: Upload!) {
-        uploadFile(file: $file){
-            filename
-        }
+        uploadFile(file: $file)
     }
 `;
 

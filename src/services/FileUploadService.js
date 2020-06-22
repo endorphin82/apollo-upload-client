@@ -5,7 +5,7 @@ const upload = (file, onUploadProgress) => {
 console.log("formData", formData)
   formData.append("file", file);
   console.log("++++", file)
-    return http.post("/", formData, {
+    return http.post("http://localhost:4000/", formData, {
     headers: {
       "Content-Type": "multipart/form-data",
     },
