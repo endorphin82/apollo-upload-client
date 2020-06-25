@@ -8,7 +8,7 @@ import { ApolloProvider } from 'react-apollo';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-const link = createUploadLink({ uri: 'http://localhost:4000' });
+const link = createUploadLink({ uri: 'http://localhost:3005' });
 
 const client = new ApolloClient({
   link,
